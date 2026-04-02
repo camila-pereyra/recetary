@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.container-hero {
+  padding: 15px 30px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container-image img {
+  width: 100%;
+}
+.container-hero-tittle {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 35px;
+}
+.container-hero-preparation {
+  margin: 20px 0;
+  padding: 25px;
+  background-color: hsl(330, 100%, 98%);
+  color: hsl(30, 10%, 34%);
+  border-radius: 10px;
+  font-size: 17px;
+}
+.container-hero-preparation p {
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+.container-hero-preparation ul {
+  list-style-position: inside;
+}
+.container-hero-preparation ul li {
+  margin: 5px 0px 10px 0;
+}
+.container-hero-preparation ul li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 13px;
+}
+.bold-type {
+  font-weight: 700;
+}
+.container-secundary-tittle {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+  font-size: 30px;
+}
+.container-secundary ul {
+  list-style: inside;
+}
+.container-secundary ul li {
+  margin: 5px 0px 10px 0;
+  font-size: 17px;
+}
+.container-secundary ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 13px;
+}
