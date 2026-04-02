@@ -60,14 +60,39 @@
   color: hsl(14, 45%, 36%);
   font-size: 30px;
 }
-.container-secundary ul {
-  list-style: inside;
+.container-secundary ul,
+.container-secundary ol {
+  list-style-position: inside;
 }
-.container-secundary ul li {
+.container-secundary ul li,
+.container-secundary ol li {
   margin: 5px 0px 10px 0;
   font-size: 17px;
 }
-.container-secundary ul li::marker {
+.container-secundary ul li::marker,
+.container-secundary ol li::marker {
   color: hsl(14, 45%, 36%);
   font-size: 13px;
+}
+.border-top {
+  margin-top: 30px;
+  padding: 25px 0 0 0;
+  border-top: 2px solid hsla(35, 13%, 82%, 0.712);
+}
+.container-secundary-info {
+  display: flex;
+  border-bottom: 2px solid hsla(35, 13%, 82%, 0.712);
+}
+.border-bottom--none {
+  border: none;
+}
+.container-secundary-info-category {
+  width: 50%;
+  padding: 10px 20px;
+}
+.container-secundary-info-value {
+  width: 50%;
+  color: hsl(14, 45%, 36%);
+  padding: 10px 0;
+  font-weight: 700;
 }
